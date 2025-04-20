@@ -154,8 +154,9 @@ def main():
         flight_datetime = convert_time(flight_date, time_str) - timedelta(hours=9, minutes=30)
 
         duration = st.number_input("Estimated Flight Duration (in minutes)", min_value=0, value=90)
-        destination_datetime = flight_datetime + timedelta(minutes=duration)
-        st.success(f"Destination Date & Time: {destination_datetime.strftime('%Y-%m-%d %H:%M')}")
+        destination_datetime = flight_datetime + timedelta(minutes=duration) 
+        destination_datetime1 = flight_datetime + timedelta(minutes=duration) + timedelta(hours=9, minutes=30)
+        st.success(f"Destination Date & Time: {destination_datetime1.strftime('%Y-%m-%d %H:%M')}")
 
 
 
