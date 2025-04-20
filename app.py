@@ -40,7 +40,7 @@ With accurate insights and a user-friendly interface, DelaySense aims to assist 
 
 - 🧠 Built with: Python, Streamlit, scikit-learn
 - 🌤️ Real-time weather data powered by Meteostat
-- 📊 Machine Learning Model: Gradient Boosting Regressor
+- 📊 Machine Learning Model: Gradient Boosting Classifier
 """)
 
 if st.button("Go to Prediction Tool"):
