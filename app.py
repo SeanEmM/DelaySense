@@ -34,8 +34,7 @@ st.markdown("---")
 
 
 st.markdown("""
-### 📘 About the Project
-DelaySense is a machine learning-powered web application that predicts flight delays using real-time weather data. 
+            DelaySense is a machine learning-powered web application that predicts flight delays using real-time weather data. 
 With accurate insights and a user-friendly interface, DelaySense aims to assist travelers and airlines in making informed decisions.
 
 - 🧠 Built with: Python, Streamlit, scikit-learn
