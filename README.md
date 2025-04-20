@@ -105,4 +105,4 @@ conditions = [
 
 - Increase time span of data collection 
 - Include more features such as aircraft type, route distance, or airline reputation  
-- Try deep learning models or hybrid ensembles for improved accuracy  
+- Try deep learning models or hybrid ensembles for improved accuracy.
