@@ -17,7 +17,7 @@ st.markdown(
         z-index: -1;
         background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXZ6MjhodGR6b2Y1ZjI4dmhpODNoMzBtcGR0bnZwbGcwczFlY3Q2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WoG9QQfmzLO3Ri9mF5/giphy.gif') no-repeat center center fixed;
         background-size: cover;
-        opacity: 0.5;
+        opacity: 0.2;
     }
     </style>
     """,
