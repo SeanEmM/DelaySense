@@ -23,40 +23,41 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("📖 About DelaySense")
+st.title("About DelaySense")
 
 st.markdown("""
-### ✈️ What is DelaySense?
+### What is DelaySense?
 
 **DelaySense** is a machine learning-powered web app that predicts flight delays based on **weather conditions** and flight information. The goal is to help travelers, airport authorities, and airlines make proactive decisions and avoid unexpected delays.
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 - Predict the **delay time** of flights based on weather data.
 - Use **real-time weather inputs** to provide actionable predictions.
 - Create a clean, interactive interface with **Streamlit**.
 
 ---
 
-### 🔧 How it Works
+### How it Works
 1. **User enters flight and weather data**
 2. The input is **scaled and preprocessed**
-3. A trained **Gradient Boosting Regressor** model predicts the delay
+3. A trained **Gradient Boosting Classifier** model predicts the delay
 4. Output is shown instantly
 
 ---
 
-### 🧠 Technologies Used
+### Technologies Used
 - **Python** for core logic
 - **Streamlit** for the user interface
 - **Scikit-learn** for model development
 - **Meteostat** for weather data
-- **Pandas, NumPy** for data processing 
+- **Pandas, NumPy** for data processing
+- **SMOTE** for oversampling the imbalanced data
 
 ---       
 
-### 🔧 Datasets Used
+### Datasets Used
 - [Flight Dataset](https://www.kaggle.com/datasets/patrickzel/flight-delay-and-cancellation-data-2019-2023-v2/data)  
 - [Airport Coordinates](https://www.kaggle.com/datasets/vittoriorossi/balanced-flight-cancellation-and-delay-2019-2023)  
 - [Weather Data](https://dev.meteostat.net/python/)
@@ -65,14 +66,14 @@ st.markdown("""
 ---
 
 
-### 👤 Developed By
+### Developed By
 **Sonal Varghese**  
 *CSE Engineer*   
 *[Check out my other Projects!](https://github.com/SeanEmM)*
 
 ---
 
-### 📝 Note
+### Note
 This project was created as part of a data science course. Predictions are based on historical weather-delay correlations and may not reflect all real-world scenarios.
 
 """)
