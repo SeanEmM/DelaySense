@@ -20,7 +20,8 @@ Predicting delays allows for:
 ---
 
 ## Data Description
-To download/view the dataset, check links.txt
+
+To download/view the dataset, check links.txt.
 The dataset was sourced from a public repository with over **3 million rows**, out of which **750,000 rows** were used after filtering and cleaning. Real-time weather data was added using the **Meteostat API**.
 
 ### Flight Data Columns:
